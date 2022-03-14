@@ -1,4 +1,4 @@
-class profile::http {
+class profile::apache {
   package {'httpd':
     ensure => present,
   }
