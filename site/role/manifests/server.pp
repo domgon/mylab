@@ -1,3 +1,3 @@
-class role::puppet-server {
+class role::server {
   include profile::commun
 }
