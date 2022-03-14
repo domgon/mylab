@@ -2,7 +2,7 @@ class profile::commun {
   package {'net-tools':
     ensure => present,
   }
-  package {'net-utils':
+  package {'bind-utils':
     ensure => present,
   }
   include profile::openssh
