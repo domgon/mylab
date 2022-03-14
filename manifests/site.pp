@@ -2,7 +2,7 @@ node default {
 }
 
 node 'puppet-master.mylab.local' {
-  include role::puppet-server
+  include role::server
 }
 
 node 'server01.mylab.local' {
