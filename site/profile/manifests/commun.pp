@@ -5,5 +5,5 @@ class profile::commun {
   package {'net-utils':
     ensure => present,
   }
-  include profile::ssh-server
+  include profile::openssh
 }
