@@ -1,6 +1,6 @@
 class profile::selinux {
 
   class { selinux:
-    mode => 'disabled',
+    mode => 'permissive',
   }
 }
