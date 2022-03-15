@@ -6,7 +6,7 @@ class profile::selinux {
 
   include ::selinux
   
-  selinux::module { 'disable':
+  selinux { 'disable':
     mode => 'disabled'
   }
 }
