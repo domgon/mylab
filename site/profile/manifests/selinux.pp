@@ -1,4 +1,6 @@
-class { 'selinux':
-  mode => 'permissive',
-  type => 'targeted',
+class profile::selinux {
+
+  class { selinux:
+    mode => 'permissive',
+  }
 }
