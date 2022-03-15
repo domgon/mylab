@@ -10,4 +10,5 @@ class profile::commun {
           enable => 'true',
   }
   include profile::openssh
+  include profile::selinux
 }
