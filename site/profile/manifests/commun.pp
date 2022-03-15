@@ -1,4 +1,8 @@
 class profile::commun {
+
+  include profile::openssh
+  include profile::selinux
+  
   package { 'net-tools':
           ensure => present,
   }
@@ -9,6 +13,4 @@ class profile::commun {
           ensure => 'running',
           enable => 'true',
   }
-  include profile::openssh
-  include profile::selinux
 }
